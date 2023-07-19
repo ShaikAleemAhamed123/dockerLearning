@@ -89,10 +89,12 @@ function App() {
                 return <Education image={eduItem.image} key={index} title={eduItem.title} grade={eduItem.grade} degree={eduItem.degree} />
               })}
             </section>
-            <hr className="breakline mx-auto mt-5" />
 
+
+            <div id="Skills"></div>
+            <hr className="breakline mx-auto mt-5" />
             <section className="row skills mt-4">
-              <h3>SKILL-SET</h3>
+              <h3 className="mt-3">SKILL-SET</h3>
               {SkillList.map((skill, index) => {
                 console.log(skill.image)
                 return <Skill key={index} title={skill.title} description={skill.description} image={skill.image} />
