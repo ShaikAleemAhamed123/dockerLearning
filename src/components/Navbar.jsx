@@ -19,6 +19,9 @@ function Navbar() {
                         <a className="nav-link" href="#Education">Education</a>
                     </li>
                     <li className="nav-item me-4">
+                        <a className="nav-link" href="#Skills">Education</a>
+                    </li>
+                    <li className="nav-item me-4">
                         <a target="_blank" className="nav-link" href="https://drive.google.com/file/d/17uP64AwpO_L-kER2qxRejsJmaDgUeHw-/view?usp=sharing">Resume</a>
                     </li>
                     <li className="nav-item me-4">
